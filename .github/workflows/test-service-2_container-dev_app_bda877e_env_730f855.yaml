@@ -1,13 +1,5 @@
 name: test-service-2_container-dev_app_bda877e_env_730f855 Pipeline (Skyu Generated)
 'on':
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - .github/workflows/**
-      - .trivyignore
-      - Readme.md
-      - README.md
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_0beedba6-808e-4d96-8eea-0f6ff0ea1e2d
